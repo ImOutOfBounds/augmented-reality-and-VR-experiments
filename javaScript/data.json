@@ -1,21 +1,33 @@
 
 [
     {
-        "image": "images/vrExperience.PNG",
+        "image": "./images/vrExperience.PNG",
         "name": "Leo Wheels",
         "description": "Experiência de realidade VR",
         "link": "https://mature-exciting-emu.glitch.me/"
     },
     {
-        "image": "images/hiro.PNG",
-        "name": "realidade aumentada",
+        "image": "./images/hiro.PNG",
+        "name": "realidade aumentada ex1",
         "description": "Experiência de realidade aumentada",
-        "link": "https://lphbackspace.github.io/Relogio-JavaScript/relogio%20JavaScript/index.html"
+        "link": "https://imoutofbounds.github.io/augmented-reality-and-VR-experiments/realidadeAumentada/exemplo01.html"
     },
     {
-        "image": "images/vrExperience.PNG",
-        "name": "Leo Wheels",
-        "description": "Experiência de realidade VR",
-        "link": "https://mature-exciting-emu.glitch.me/"
+        "image": "./images/hiro.PNG",
+        "name": "realidade aumentada ex2",
+        "description": "Experiência de realidade aumentada",
+        "link": "https://imoutofbounds.github.io/augmented-reality-and-VR-experiments/realidadeAumentada/exemplo02.html"
+    },
+    {
+        "image": "./images/hiro.PNG",
+        "name": "realidade aumentada ex3",
+        "description": "Experiência de realidade aumentada",
+        "link": "https://imoutofbounds.github.io/augmented-reality-and-VR-experiments/realidadeAumentada/exemplo03.html"
+    },
+    {
+        "image": "./images/hiro.PNG",
+        "name": "realidade aumentada ex4",
+        "description": "Experiência de realidade aumentada",
+        "link": "https://imoutofbounds.github.io/augmented-reality-and-VR-experiments/realidadeAumentada/exemplo04.html"
     }
 ]
