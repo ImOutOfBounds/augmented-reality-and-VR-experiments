@@ -1,5 +1,6 @@
 # tour-vr
- 
+
+Projeto de: Leandro de Oliveira Custódio
 
 ## Introdução
 Este projeto tem como objetivo explorar o uso do Oculos-VR, criando um ambiente interativo que pode ser visualizado pelo site disponilizado por meio do <a href="https://mature-exciting-emu.glitch.me">Glitch</a>.
