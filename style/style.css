@@ -318,6 +318,7 @@ a{
     box-shadow: var(--box-shadow);
     border: var(--border);
     transition: 0.3s all;
+    margin-bottom: 100px;
 }
 .project:hover{
     background-color: var(--black);
