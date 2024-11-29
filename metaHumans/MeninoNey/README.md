@@ -1,4 +1,7 @@
 ## Menino Ney
+
+<img src="./Images/Neymar.png">
+
 - Defina o propósito do humano virtual
 O proposito do Menino Ney
 
@@ -13,6 +16,8 @@ O proposito do Menino Ney
 - Justifique a escolha da aparência:
 
 - Explique como a aparência do avatar reflete o contexto escolhido.
+O avatar é baseado no jogador de futebol Neymar Jr.
+<img src="./Images/RealNey.png">
 
 - Considere elementos como idade, gênero, tom de pele, vestuário e expressões faciais.
 Idade: 
