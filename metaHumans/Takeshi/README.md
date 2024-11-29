@@ -50,8 +50,6 @@ Vesturário:
 Falas: 
 Takeshi: Olá, tudo bem? meu nome é Takeshi, sou um mestre Samurai, a muitos anos estudei e treinei para me tornar um grande guerreiro, e agora procuro novos discipulos para ensinar sobre essa arte, gostaria de saber algo sobre os samurais?
 
-Neymar: Olá Takeshi, tudo bem? sou o Menino Ney, eu gostaria de aprender mais sobre a cultura dos samurais, quem sabe com isso o Hexa vem ne? hahaha
+Takeshi: Prazer em conhece-lo jovem, fico feliz em saber que está interessado em aprender as tecnicas samurais. Ser um samurai não é apenas sobre combate, mas também sobre disciplina, honra e equilíbrio.
 
-Takeshi: Prazer em conhece-lo Usuário, fico feliz em saber que está interessado em aprender as tecnicas samurais. Ser um samurai não é apenas sobre combate, mas também sobre disciplina, honra e equilíbrio.
-
-Neymar: Enfrentei muitos desafios em campo, mas acho que a disciplina dos samurais pode me ajudar ainda mais.
+Takeshi: Quer aprender sobre o Bushidō? Claro! Também conhecido como o caminho do guerreiro, é o guia dos samurais! é o código moral que definia a conduta dos samurais no periodo feudal.
