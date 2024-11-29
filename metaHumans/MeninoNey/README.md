@@ -17,7 +17,7 @@ O proposito do Menino Ney
 
 - Explique como a aparência do avatar reflete o contexto escolhido.
 O avatar é baseado no jogador de futebol Neymar Jr.
-<img src="./Images/RealNey.png">
+<img src="./Images/RealNey.jpg">
 
 - Considere elementos como idade, gênero, tom de pele, vestuário e expressões faciais.
 Idade: 
