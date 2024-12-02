@@ -7,20 +7,20 @@
 <img src="./Images/TakeshiLuta2.png">
 
 ### Defina o propósito do humano virtual
-proposito do meu Humano virtual é apresentar fatos sobre a cultura dos samurais
+Senhor Takeshi é um sabio mestre samurai de 62 anos que foi treinado por um guerreiro cujo lutou na batalha de Shiroyama no ano de 1877, a qual foi a ultima batalha conhecida dos samurais. Seu proposito de vida é ensinar sobre a cultura, filosofia e valores dos samuais japoneses, propagando e mantendo esta cultura para as gerações futuras.
 
 ### Escolha uma área de aplicação (e.g., educador em RV, personagem para um jogo, assistente virtual em uma loja).
-Area da educação, o usuário conseguirá interagir com o personagem, fazendo perguntas sobre a história dos samurais
+Educação Interativa aplicada em RV
+Takeshi é um 'professor' virtual que conversa e ensina o usuário, guiando o mesmo para uma jornada histórica. 
 
 ### Elabore uma descrição detalhada do humano virtual:
-O Takeshi é um velho mestre samurai, após passar sua vida toda estudando e treinando para se tornar um guerreiro invencivel, Takeshi tem uma nova ambição, ensinar as novas gerações os princípios e fatos históricos dos samurais.
-
-Sr Takeshi é um senhor japones de 94 anos, que possui um grande conhecimento e experiência na cultura samurai, mantendo sua humildade e sabedoria durante suas aulas
+Takeshi é um mestre samurai aposentado, com 62 anos. Após uma vida dedicada à arte da espada e à filosofia samurai, ele agora busca passar seus conhecimentos para as novas gerações. Possui uma páz de espírito e energia contagiantes, conseguindo cativar pessoas de todas as idades.
+É muito respeitado por todos os que conhecem, mesmo assim mantem sua humildade, pois acredita que todos podem aprender com os ensinamentos dos samurais.
 
 ### Nome, personalidade e função do avatar.
 - Nome: Sr Takeshi
 - Personalidade: Senhor humilde, experiênte e bem humorado
-- Função: sua função é ensinar fatos sobre a cultura samurai
+- Função: Educador e mentor
 
 ### Cenário de uso prático.
 - Takeshi pode ser usado em contextos educacionais, ajudando pessoas de qualquer idade a aprender sobre a cultura dos samurais japoneses    
@@ -30,20 +30,32 @@ A aparencia do Sr Takeshi é baseada em uma afeição asiática, ele possui cabe
     
 ### Explique como a aparência do avatar reflete o contexto escolhido.
 A aparencia dele é parecida com diversos mestres asíaticos, como:
-Mestre Kame de dragonball Z 
+
+#### Mestre Kame de dragonball Z 
+
+Mestre Kame é um sabio mestre do anime Dragon Ball Z, ele foi responsável pela famosa técnica 'Kamehameha', bem como pelo treinamento de personagens como Goku e Kuririn. Embora poderoso, Kame
+é lembrado como um personagem divertido, esta característica também pode ser observada em Takeshi.
+
 <img src="./Images/Kame.jpg">
 
-Senhor Miyagi de Karatê Kid
+#### Senhor Miyagi de Karatê Kid
+
+Sr. Miyagi é o mestre da seria Karatê Kid, sempre é retradado como uma pessoa paciênte e sabia, estes trações podem ser observada na abordagem filosófica e pratica na didatica de Takeshi.
 <img src="./Images/Miyagi.jpg">
 
-Kenzou de Jojo part 6
+#### Kenzou de Jojo part 6
+
+Kenzou é conhecido por conta de seu visual marcante de monge guerreiro. Mesmo sendo um vilão, ele transmite muita habilidade e conhecimento de combate durante sua aparição em Jojo's Bizarre Adventure, e isso 
+pode ser observado em Takeshi, por conta de seu visual imponente.
+
 <img src="./Images/Kenzou.png">
 
 ### Considere elementos como idade, gênero, tom de pele, vestuário e expressões faciais.
-- Idade: 94 anos
+- Idade: 62 anos
 - Gênero: Maculino
-- Tom de pele: Claro
-- Vesturário: Roupas mais escuras e comportadas
+- Tom de pele: Claro, possuindo traços característicos asiáticos
+- Olhos: Possui heterocromia, tendo seu olho direito cor de castanho mel e esquerdo azul
+- Vesturário: Roupas pretas com detalhamento em vermelho, confortáveis e discretas, que permitem boa mobilidade.
 
 
 ### Vesturário:
