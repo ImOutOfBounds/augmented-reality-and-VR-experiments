@@ -1,11 +1,11 @@
 Model Information:
-* title:	Beyblade Galman Metal Master version (+stickers)
-* source:	https://sketchfab.com/3d-models/beyblade-galman-metal-master-version-stickers-eaccbedb942040e4b26babaf3ce1a4ce
-* author:	Bantman (https://sketchfab.com/fabianmendes)
+* title:	Storm Pegasus
+* source:	https://sketchfab.com/3d-models/storm-pegasus-70e9b69eef4e4d529d69acce7073c2d8
+* author:	RECZ P3D (https://sketchfab.com/recz.contacto)
 
 Model License:
-* license type:	CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
-* requirements:	Author must be credited. No commercial use. Modified versions can not be distributed.
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "Beyblade Galman Metal Master version (+stickers)" (https://sketchfab.com/3d-models/beyblade-galman-metal-master-version-stickers-eaccbedb942040e4b26babaf3ce1a4ce) by Bantman (https://sketchfab.com/fabianmendes) licensed under CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+This work is based on "Storm Pegasus" (https://sketchfab.com/3d-models/storm-pegasus-70e9b69eef4e4d529d69acce7073c2d8) by RECZ P3D (https://sketchfab.com/recz.contacto) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
