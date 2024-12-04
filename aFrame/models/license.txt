@@ -1,0 +1,11 @@
+Model Information:
+* title:	Beyblade Galman Metal Master version (+stickers)
+* source:	https://sketchfab.com/3d-models/beyblade-galman-metal-master-version-stickers-eaccbedb942040e4b26babaf3ce1a4ce
+* author:	Bantman (https://sketchfab.com/fabianmendes)
+
+Model License:
+* license type:	CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions can not be distributed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Beyblade Galman Metal Master version (+stickers)" (https://sketchfab.com/3d-models/beyblade-galman-metal-master-version-stickers-eaccbedb942040e4b26babaf3ce1a4ce) by Bantman (https://sketchfab.com/fabianmendes) licensed under CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Sala 360</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+        <!-- Assets utilizados no projeto -->
+        <a-assets>
+            <img id="imgEscada" src="./img/sky.jpg" />
+            <a-asset-item id="beyblade1" src="./models/scene.gltf"></a-asset-item>
+            <a-asset-item id="arena" src="./arena/scene.gltf"></a-asset-item>
+            <a-asset-item id="cenario" src="./scenario/scene.gltf"></a-asset-item>
+            <img id="texturaChao" src="./textures/stone.jpg" />
+            <audio id="musica1" src="./songs/song1.mp3"></audio>
+            <audio id="musica2" src="./songs/song2.mp3"></audio>
+        </a-assets>
+
+        <!-- Ambiente 360 -->
+        <a-sky id="img-360" radius="200" src="#imgEscada"></a-sky>
+
+        <a-entity rotation="0 0 0"
+            animation="property: rotation; to: 0 3000000 0; dur: 1000000"
+            scale="4 4 4">
+            <a-entity 
+                gltf-model="#beyblade1" 
+                position="5 1.5 0"  
+                rotation="0 0 0" 
+                scale="40 40 40"
+                animation="property: rotation; to: 0 432000 0; dur: 10000; loop: true "></a-entity>
+        </a-entity>
+
+        <!-- Arena com textura aplicada -->
+        <a-entity 
+            gltf-model="#arena" 
+            position="0 -1 0"  
+            rotation="0 0 0" 
+            scale="0.10 0.05 0.10"
+            material="src: #texturaChao; repeat: 10 10; roughness: 0.7; metalness: 0.3;">
+        </a-entity>
+
+        <a-entity 
+            gltf-model="#cenario" 
+            position="0 -1.5 0"  
+            rotation="0 0 0" 
+            scale="1 1 1">
+        </a-entity>
+
+        <!-- Free Camera com Movimento Vertical -->
+        <a-entity 
+            camera 
+            position="0 40 5"
+            wasd-controls="acceleration: 500"
+            look-controls="pointerLockEnabled: true"
+            custom-controls>
+        </a-entity>
+
+        <a-entity id="music" sound="src: #musica2; autoplay: true; loop: false; distance: 50; refDistance: 10; maxDistance: 100" position="0 1 0">
+        </a-entity>
+
+    </a-scene>
+
+    <script>
+      // Função para alternar a música
+      function changeMusic() {
+          var musica1 = document.getElementById('musica1');
+          var musica2 = document.getElementById('musica2');
+          var soundEntity = document.getElementById('music');
+
+          // Quando a música 1 terminar, troca para a música 2
+          musica1.onended = function() {
+              soundEntity.setAttribute('sound', 'src: #musica2');
+              musica2.play(); // Toca a segunda música
+          };
+
+          // Quando a música 2 terminar, volta para a música 1
+          musica2.onended = function() {
+              soundEntity.setAttribute('sound', 'src: #musica1');
+              musica1.play(); // Toca a primeira música novamente
+          };
+      }
+
+      // Chama a função para iniciar a troca de músicas
+      window.onload = function() {
+          changeMusic();
+      };
+    </script>
+</body>
+</html>
