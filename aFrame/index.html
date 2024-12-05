@@ -17,6 +17,10 @@
             <img id="texturaChao" src="./textures/stone.jpg" />
             <audio id="musica1" src="./songs/song1.mp3"></audio>
             <audio id="musica2" src="./songs/song2.mp3"></audio>
+
+            <img id="monster" src="./textures/monster.jpg" /> 
+            <img id="img2" src="./textures/img1.jpg" /> 
+            <a-asset-item id="game_machine" src="./jukebox/Electronic Game.glb"></a-asset-item>
         </a-assets>
 
         <!-- Ambiente 360 -->
@@ -58,6 +62,33 @@
             custom-controls>
         </a-entity>
 
+        <a-cylinder 
+            height="0.18"
+            radius="0.033"            
+            material="src: #monster; repeat: 1 1" 
+            position="-4 20 -75"
+            material="src: #texturaLateral; side: double"
+            top-material="color: #000000"  
+            bottom-material="color: #000000"         
+            rotation="0 233.19 0"
+            color="green"
+            scale="40 33 40">      
+        </a-cylinder>
+
+        <a-entity 
+            gltf-model="#game_machine" 
+            position="-53.71873 7.198 -83.519" 
+            rotation="0 25 0" 
+            scale="20 20 20">
+        </a-entity>
+
+        <a-cylinder scale="0.6 0.6 0.6" position="-42.24011 20.04886 -74.17777" rotation="29.999999999999996 0 0" color="green" height="1" radius="1.5"></a-cylinder>    
+        <a-cylinder scale="0.7 0.7 0.7" position="-40.83614 20.31775 -76.88595" rotation="29.999999999999996 0 0" color="blue" height="1" radius="1.5" material="" geometry=""></a-cylinder>
+        <a-cylinder scale="0.7 1.2 0.7" position="-38.33108 20.47471 -79.42502" rotation="29.999999999999996 0 0" color="crimson" height="1" radius="1.5" material="" geometry=""></a-cylinder>
+
+        </a-entity>
+
+        <a-image id="display" src="#img2" position="-43 28 -79.0" rotation="-15.080000000000002 25 0" material="" geometry="" scale="15 15 15"></a-image>
         <!-- Som do áudio -->
         <a-entity id="music" sound="src: #musica1; autoplay: true; loop: true; distance: 50; refDistance: 10; maxDistance: 100" position="0 1 0">
         </a-entity>
