@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Most Basic Super-Hands Example</title>
+        <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.misc.min.js"></script>
+        <script src="https://unpkg.com/super-hands@^3.0.3/dist/super-hands.min.js"></script>
+        </head>
+        
+        <body>
+            <a-scene>
+                <a-assets>
+                    <img id="texturaChao" src="./textures/stone.jpg" /> 
+                    <img id="monster" src="./textures/monster.jpg" /> 
+                    <img id="img2" src="./textures/img1.jpg" /> 
+                    <img id="imgEscada" src="./img/sky.jpg" />
+                    <a-asset-item id="game_machine" src="./jukebox/Electronic Game.glb"></a-asset-item>
+                    <audio id="musica1" src="./songs/song1.mp3"></audio>
+                    <audio id="musica2" src="./songs/song2.mp3"></audio>
+                </a-assets>
+
+            
+
+            <a-entity>
+                <a-camera></a-camera>
+                <a-entity sphere-collider="objects: a-box" super-hands hand-controls="hand: left"></a-entity>
+                <a-entity sphere-collider="objects: a-box" super-hands hand-controls="hand: right"></a-entity>
+            </a-entity>
+
+            <a-entity 
+                gltf-model="#game_machine" 
+                position="-.4 .5 -1.5"  
+                rotation="0 0 0" 
+                scale="1 1 1">
+            </a-entity>
+
+            <a-cylinder 
+                height="0.18"
+                radius="0.033"            
+                material="src: #monster; repeat: 1 1" 
+                position="-.3 1.5 -.3"
+                material="src: #texturaLateral; side: double"
+                top-material="color: #000000"  
+                bottom-material="color: #000000"         
+                rotation="31.68 233.19 19.52"
+                color="green"
+                scale="1.5 1 1.5">      
+            </a-cylinder>
+
+            <a-image id="display" src="#img2" position="0.01351 1.62906 -1.09763" rotation="-11.080000000000002 0 0" material="" geometry="" scale="0.7 0.73 1"></a-image>
+
+            </a-image>
+
+            <a-cylinder scale="0.03 0.03 0.03" position="-0.16266 1.08959 -0.78583" rotation="29.999999999999996 0 0" color="green" height="1" radius="1.5" material="" geometry=""></a-cylinder>
+            <a-cylinder scale="0.03 -0.03 0.03" position="-0.07183 1.12508 -0.90335" rotation="29.999999999999996 0 0" color="blue" height="1" radius="1.5" material="" geometry=""></a-cylinder>
+            <a-cylinder scale="0.03 0.03 0.03" position="0.06264 1.13788 -0.9591" rotation="29.999999999999996 0 0" color="crimson" height="1" radius="1.5" material="" geometry=""></a-cylinder>
+
+            <a-plane 
+                material="src: #texturaChao" 
+                position="0 .5 0" 
+                rotation="-90 0 0" 
+                width="10" 
+                height="10">
+            </a-plane>
+            <a-sky id="img-360" radius="200" src="#imgEscada"></a-sky>
+            <!-- hover & drag-drop won't have any obvious effect without some additional event handlers or components. See the examples page for more -->
+            </a-scene>
+        </body>
+</html>
