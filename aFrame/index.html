@@ -9,12 +9,17 @@
 </head>
 <body>
     <a-scene>
+        <a-text value="Storm Pegasus!" position="-1.3 41 98" color="#000fff" scale="1.5 1.5 1.5"></a-text>
+        <a-text value="Aperte barra de espaco para lancar / M para trocar de musica" position="-2.5 40 98" color="#fff"></a-text>
         <!-- Assets utilizados no projeto -->
         <a-assets>
             <img id="imgEscada" src="./img/sky.jpg" />
             <img id="texturaChao" src="./textures/stone.jpg" />
             <img id="monster" src="./textures/monster.jpg" /> 
-            <img id="img2" src="./textures/img1.jpg" /> 
+
+            <img id="img1" src="./textures/img1.jfif" /> 
+            <img id="img2" src="./textures/img2.jpg" />
+            <img id="img3" src="./textures/img3.jpg" />
 
             <a-asset-item id="game_machine" src="./jukebox/Electronic Game.glb"></a-asset-item>
             <a-asset-item id="arena" src="./arena/scene.gltf"></a-asset-item>
@@ -24,7 +29,7 @@
 
             <audio id="musica1" src="./songs/song1.mp3"></audio>
             <audio id="musica2" src="./songs/song2.mp3"></audio>
-            <audio id="musica2" src="./songs/song3.mp3"></audio>
+            <audio id="musica3" src="./songs/song3.mp3"></audio>
         </a-assets>
 
         <!-- Ambiente 360 -->
@@ -80,7 +85,7 @@
 
         <a-entity 
             camera 
-            position="0 40 5"
+            position="0 40 100"
             wasd-controls="acceleration: 500"
             look-controls="pointerLockEnabled: true"
             custom-controls>
@@ -108,9 +113,12 @@
 
         </a-entity>
 
-        <a-image id="display" src="#img2" position="-43 28 -79.0" rotation="-15.080000000000002 25 0" material="" geometry="" scale="15 15 15"></a-image>
+        <a-image id="display" src="#img1" position="-43 28 -79.0" 
+            rotation="-15.08 25 0" 
+            scale="15 15 15">
+        </a-image>
         <!-- Som do áudio -->
-        <a-entity id="music" sound="src: #musica1; autoplay: true; loop: true; distance: 50; refDistance: 10; maxDistance: 100" position="0 1 0">
+        <a-entity id="music" sound="src: #musica3; autoplay: true; loop: true; distance: 50; refDistance: 10; maxDistance: 1000; volume: 10" position="0 1 0">
         </a-entity>
 
     </a-scene>
