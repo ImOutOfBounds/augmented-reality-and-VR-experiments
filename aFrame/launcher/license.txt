@@ -1,0 +1,11 @@
+Model Information:
+* title:	Beyblade Beads Launcher (prototype)
+* source:	https://sketchfab.com/3d-models/beyblade-beads-launcher-prototype-228e9f7789ee4e2480da01969539c3ad
+* author:	Javier Da Rosa (https://sketchfab.com/Javier_Da_Rosa)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Beyblade Beads Launcher (prototype)" (https://sketchfab.com/3d-models/beyblade-beads-launcher-prototype-228e9f7789ee4e2480da01969539c3ad) by Javier Da Rosa (https://sketchfab.com/Javier_Da_Rosa) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
