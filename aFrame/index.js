@@ -3,7 +3,7 @@ const launcher = document.querySelector('#beybladeLauncher');
 const scene = document.querySelector('#beybladeScene');
 
 const musicEntity = document.querySelector('#music');
-const displayImage = document.querySelector('#display');
+const displayImage = document.querySelector('#imgMachine');
 
 const musicTracks = ['#musica1', '#musica2', '#musica3'];
 const imageFiles = ['#img1', '#img2', '#img3'];
@@ -28,7 +28,7 @@ document.addEventListener('keydown', (event) => {
 let currentIndex = 0;
 
 musicEntity.setAttribute('sound', `src: ${musicTracks[currentIndex]}; autoplay: true; loop: true`);
-displayImage.setAttribute('src', imageFiles[currentIndex]);
+displayImage.setAttribute('src', `"imageFiles[currentIndex]"`);
 
 document.addEventListener('keydown', (event) => {
     if (event.code === 'KeyM') {
