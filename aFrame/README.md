@@ -3,7 +3,7 @@ Esta atividade tem como objetivo criar um ambiente em realidade aumentada que pr
 
 <a href="https://imoutofbounds.github.io/augmented-reality-and-VR-experiments/aFrame/">Clique aqui para jogar</a>
 
-[![Video demonstrativo](https://img.youtube.com/vi/tTGEtF3KW78/maxresdefault.jpg)](https://www.youtube.com/watch?v=tTGEtF3KW78)
+<a href="https://www.youtube.com/watch?v=tTGEtF3KW78">Video Demonstrativo</a>
 
 **Video demonstrativo acima**
 
