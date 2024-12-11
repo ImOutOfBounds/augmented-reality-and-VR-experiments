@@ -4,7 +4,7 @@ Esta atividade tem como objetivo criar um ambiente em realidade aumentada que pr
 
 <a href="https://imoutofbounds.github.io/augmented-reality-and-VR-experiments/aFrame/">Clique aqui para jogar</a>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tTGEtF3KW78?si=bqWNKBH7pfnaCWO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Assista ao vídeo no YouTube](https://www.youtube.com/embed/tTGEtF3KW78?si=bqWNKBH7pfnaCWO0)
 
 Ao iniciar a experiência, o usuário se depara-rá com um tutorial inicial, mostrando os possíveis controles
 <img src="./img/start.png">
